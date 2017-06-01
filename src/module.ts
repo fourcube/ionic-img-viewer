@@ -1,3 +1,4 @@
+import { ImageViewer } from './image-viewer';
 import { NgModule, APP_INITIALIZER } from '@angular/core';
 import { IonicModule } from 'ionic-angular';
 import { Config } from 'ionic-angular/config/config';
@@ -11,7 +12,7 @@ import { ImageViewerComponent } from './image-viewer.component';
 		ImageViewerComponent,
 		ImageViewerDirective
 	],
-	exports: [ ImageViewerDirective ],
+	exports: [ ImageViewerDirective, ImageViewerComponent ],
 	entryComponents: [ ImageViewerComponent ]
 })
 export class IonicImageViewerModule {}
