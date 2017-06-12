@@ -1,3 +1,12 @@
+# 2.3.0
+
+Support for Ionic 3.3.x
+
+# 2.2.0
+
+- Support for Ionic 3.2.x
+- fix: scrolling an image hover a list doesn't scroll the list underneath anymore
+
 # 2.1.0
 
 Support for Ionic 3.1.x
